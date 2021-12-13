@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tw Cen MT;
+    font-size: 22px;
+}
+
+body {
+    margin: 20px;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    margin: 20px;
+}
+
+.toggle {
+    background-color: #d5d;
+}
+
+.toggle ul li {
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.toggle ul li a {
+    padding: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.toggle::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.toggle ul ul {
+    background-color: lime;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    display: none;
+}
+
+.toggle ul ul li {
+    float: none;
+}
+
+.toggle ul ul li a {
+    font-size: 26px;
+    color: #000000;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+.add_css {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+form input {
+    margin: 5px 20px;
+}
+
+form input[type='submit'],
+button {
+    padding: 10px 20px;
+    background-color: #509349;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.appOrderList {
+    margin: 50px;
+}
+
+.rebox {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+section div {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+}
+
+section .arclass {
+    background-color: blue;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.green {
+    background-color: green !important;
+}
+
+.boxmodel {
+    width: 200px;
+    min-height: 100px;
+    background-color: #903489;
+    padding: 15px;
+    border: 5px solid limegreen;
+    margin: 10px;
+}
