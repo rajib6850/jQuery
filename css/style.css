@@ -127,3 +127,22 @@ section .arclass {
     border: 5px solid limegreen;
     margin: 10px;
 }
+
+
+/* Class 27  */
+
+.winresize {
+    padding: 100px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.winresize p {
+    font-size: 32px;
+}

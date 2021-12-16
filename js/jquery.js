@@ -168,7 +168,21 @@ $(document).ready(function() {
 
 
 
+    // Class 27 
 
+    var winWidth = $(window).width();
+    $('.winresize').html('<p>' + winWidth + '</p>');
+
+
+    $(window).resize(function() {
+        var winWidth = $(window).width();
+        $('.winresize').html('<p>' + winWidth + '</p>');
+    });
+
+    $(window).scroll(function() {
+        var winScrollTop = $(window).scrollTop();
+        $('.winresize').html('<p>' + winScrollTop + '</p>');
+    });
 
 
 
