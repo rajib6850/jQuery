@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Tw Cen MT;
+}
+
+.sidebarNav {
+    width: 0;
+    height: 100vh;
+    background-color: #111111;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.menuActive {
+    width: 250px;
+    position: relative;
+}
+
+.menuIcon {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    transition: 0.3s;
+}
+
+.menuIcon div {
+    width: 25px;
+    height: 3px;
+    background-color: #c3c3c3;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.iconChange div:first-child {
+    transform: rotate(45deg) translate(6px, 11px);
+}
+
+.iconChange div:nth-child(2) {
+    opacity: 0;
+}
+
+.iconChange div:nth-child(3) {
+    transform: rotate(-45deg) translate(0, -6px);
+}
+
+.leftMenu ul {
+    padding-top: 60px;
+}
+
+.leftMenu ul a {
+    color: #c3c3c3;
+    font-size: 22px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
