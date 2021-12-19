@@ -11,7 +11,12 @@ $(document).ready(function() {
         if (topSc > headerHight) {
             $('.header').css({ 'position': 'fixed', 'top': '0' })
         } else {
-            $('.header').css('top', -headerHight)
+
+            if(topSc < headerHight){
+                $('.header').css({ 'position': 'absolute', 'top': '0' })
+            }
+
+            
         }
 
 
